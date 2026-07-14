@@ -66,4 +66,8 @@ See `DEPLOYMENT_GUIDE.md` for production setup and required environment variable
 
 ## Project Status
 
-LiquiFlow is an actively scaffolded reference implementation, currently ahead of the original master specification in some ways (safer admin-auth pattern, JWT-based sessions) and behind it in others (most route hand
+LiquiFlow is an actively scaffolded reference implementation, currently ahead of the original master specification in some ways (safer admin-auth pattern, JWT-based sessions) and behind it in others (most route handlers are auth-guarded stubs — see `API_DOCUMENTATION.md` for exactly what's implemented versus scaffolded). Live gateway connectivity, multi-currency settlement, and real bank payouts remain out of scope — see `PAYMENT_FLOW.md` for the developer-sandbox simulation model used instead.
+
+## License
+
+Proprietary — internal development and portfolio use only unless otherwise licensed.
